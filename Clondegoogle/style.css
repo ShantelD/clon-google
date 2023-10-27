@@ -1,0 +1,208 @@
+/* alto y ancho definidos */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: arial,san-serif;
+}
+link .logoGG{
+    border-radius: 50%;}
+head .shortcut icon{
+    border-radius: 20px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    height: 100vh;
+}
+header{
+    display:flex;
+    justify-content: end;
+    height: 60px;
+    /* background-color: teal; */
+    padding:0 18px;
+}
+header .options{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    /* background-color: indianred; */
+} 
+/* a es para que afecte a esas etiquetas */
+header .options a{
+    /* none quita las lineas que aparecen en los links */
+    
+    text-decoration: none;
+    color:darkslategrey;
+}
+header .options a img{
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+}
+header .options a svg{
+    display: inline-block;
+   height: 24px; 
+   width: 24px;
+   fill: darkslategrey;
+}
+main{
+    height: calc(100% - 60px - 70px);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    /* background-color: teal; */
+}
+main .conteiner {
+    /*background-color: blueviolet;*/ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:32px}
+main .conteiner figure{
+    max-height: 92px;
+    
+}
+main .conteiner figure img{
+    height: 100%;
+    
+}
+main .conteiner .sarcher-buttons{
+    display: flex;
+    gap: 8px;
+}
+main .conteiner .sarcher{
+    display: flex;
+    height: 40px;
+    width: 450px;
+    /* background-color: aqua; */
+    padding:8px 12px;
+    gap: 8px;
+    border: 1px solid #dadce0;
+    border-radius: 24px;
+
+}
+main .conteiner .sarcher input{
+    width: 100%;
+    border:none;
+    background-color: transparent;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+    
+    color:#202124;
+    cursor: pointer;
+}
+main .conteiner .sarcher input:hover{
+    /* alpha=.1 es como la transparencia */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+    border: 1px solid #dadce0;
+    color:#202124;
+    cursor: pointer;
+}
+/* main .conteiner .sarcher-buttons button{
+    border: none; 
+    border-radius: 4px;
+    background-color: #ffcc8b;
+    padding: 12px;
+    color: darkslategrey;
+} */
+
+.sarcher-buttons div{
+    display: inline-block;
+
+}
+/* configuración boones voy a tener suerte */
+.sarcher-buttons button{ 
+        border: none;
+        height: 35px;
+        background-color: #f8f9fa94;
+        font-size: 14px;
+        color: #3c4043;
+        border-radius: 1px solid #ffffff96;
+        margin-right:10px;
+}
+.sarcher-buttons button:hover{
+    /* alpha=.1 es como la transparencia */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+    border: 1px solid #dadce0;
+    color:#202124;
+    cursor: pointer;
+}
+main .conteiner p {
+    font-size: small;
+    color:darkslategrey}
+
+main .conteiner .sarcher button{
+    background-color: transparent;
+    border: none;
+    
+}
+main .conteiner .sarcher button:hover{
+    box-shadow: #f8f9fa94;
+}
+.search-logo {
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(Imagenes/acets/icon_search.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color:darkslategrey;
+}
+.micro-logo {
+    display:inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(Imagenes/acets/micro.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color:darkslategrey;
+}
+.camera-logo {
+    display:inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(Imagenes/acets/Camera.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color:darkslategrey;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    height:65px ;
+    background-color: #f2f2f2;
+    font-size: 13px;
+    /* display:grid; 
+    grid-template-columns: 1fr 1fr ;
+    align-items: center;*/
+    border-top: 1px solid #e4e4e4;
+    bottom: 0%;
+}
+footer section{
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    height: 50%;
+    color:#70757a;
+}
+footer section.more-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top: #f2f2f2 solid ;
+}
+footer section.more-info div{
+    display:flex;
+    gap: 18px;
+}
+footer .location{
+    padding: 15px 30px;
+    border-bottom: 1px solid #70757a;
+}
+
+footer section.more-info div a {
+    color:#70757a;
+    text-decoration: none;
+}
