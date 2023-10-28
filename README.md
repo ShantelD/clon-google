@@ -8,7 +8,7 @@ Proyecto **TecnolochicasPro**_simulando la página principal del navegador Googl
 ## Intro
 El proyeco fue creado con **html y css** se trata del navegador más usado que nacío el 4 de septiembre de 1998
 *Puedes visitar el siguiente enlace: [visitar página](https://clon-google-save.netlify.app)
-![clondeGoogle](https://github.com/ShantelD/clon-google/assets/147679379/ab842b61-99b6-4f03-86c2-dbc6342693d0)
+![clondeGoogle](https://github.com/ShantelD/clon-google/blob/main/ClondeGogle.png)
 **Inspirate en ese proyecto y usa tu destreza para mostrar que tu futuro esta entre las estrellas🐱‍🏍💪**
 
 ## Contenido del proyecto
